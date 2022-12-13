@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class Enseignant extends Personne {
-
-    // TODO : rajouter les autres méthodes présentes dans le diagramme UML
-
     List<Intervention> interventionList = new ArrayList<>();
     Map<UE,ServicePrevu> servicePrevuList = new HashMap<>();
 
