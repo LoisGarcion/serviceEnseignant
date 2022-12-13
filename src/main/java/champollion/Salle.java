@@ -26,4 +26,8 @@ public class Salle {
     public void addOccupation(Intervention intervention){
         occupations.add(intervention);
     }
+
+    public Set<Intervention> getOccupations() {
+        return occupations;
+    }
 }

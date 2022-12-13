@@ -28,24 +28,12 @@ public class UE {
         return heuresCM;
     }
 
-    public void setHeuresCM(int heuresCM) {
-        this.heuresCM = heuresCM;
-    }
-
     public int getHeuresTD() {
         return heuresTD;
     }
 
-    public void setHeuresTD(int heuresTD) {
-        this.heuresTD = heuresTD;
-    }
-
     public int getHeuresTP() {
         return heuresTP;
-    }
-
-    public void setHeuresTP(int heuresTP) {
-        this.heuresTP = heuresTP;
     }
 
     public void addIntervenant(Enseignant enseignant){
@@ -55,4 +43,13 @@ public class UE {
     public void addSeance(Intervention intervention){
         this.seancesPlanifiees.add(intervention);
     }
+
+    public List<Enseignant> getIntervenants() {
+        return intervenants;
+    }
+
+    public List<Intervention> getSeancesPlanifiees() {
+        return seancesPlanifiees;
+    }
+
 }
